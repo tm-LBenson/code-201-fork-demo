@@ -2,16 +2,17 @@
 
 // -------- Challenge 1 -------- //
 // put this code block into a function, add a return statement, and call the function
-
+function bestPet(){
   let bestPet = 'cat';
   let petName = 'Rey-Rey';
   let petString = `The best pet is a ${bestPet} named ${petName}`;
-
+  return petString;
+}
 // return the petString here
 
 
 // call your function here
-
+bestPet();
 
 
 // -------- Challenge 2 -------- //
