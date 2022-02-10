@@ -17,13 +17,17 @@ bestPet();
 
 // -------- Challenge 2 -------- //
 // put this code block into a function, add a return statement, and call the function
+function greatPet(){
 
-let anotherGreatPet = '';
-let anotherPetName = '';
-let anotherPetString = `The best pet is a ${anotherGreatPet} named ${anotherPetName}`;
+  let anotherGreatPet = 'sugarGlider';
+  let anotherPetName = 'mozu';
+  let anotherPetString = `The best pet is a ${anotherGreatPet} named ${anotherPetName}`;
+  return anotherPetString
+
+}
 
 // call your function here
-
+greatPet();
 
 
 // -------- Challenge 3 -------- //
