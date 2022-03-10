@@ -32,9 +32,14 @@ greatPet();
 
 // -------- Challenge 3 -------- //
 // is there another way to write this function so we can use one function for different pets?
+function anotherGreatPet(){
+  let anotherGreatPet = 'cat';
+  let anotherPetName = 'Mellon';
+  let petString = `The best pet is a ${anotherGreatPet} named ${anotherPetName}`
+  return petString;
+}
 
-let anotherGreatPet = '';
-let anotherPetName = '';
+anotherGreatPet();
 
 
 // return the anotherPetString here
